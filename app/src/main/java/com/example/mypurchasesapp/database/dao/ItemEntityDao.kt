@@ -1,10 +1,10 @@
-package com.example.mypurchasesapp.dao
+package com.example.mypurchasesapp.database.dao
 
 import androidx.room.Dao
 import androidx.room.Delete
 import androidx.room.Insert
 import androidx.room.Query
-import com.example.mypurchasesapp.model.ItemEntity
+import com.example.mypurchasesapp.database.entity.ItemEntity
 
 /**
  * @author Mingaleev D. 08.06.2022
