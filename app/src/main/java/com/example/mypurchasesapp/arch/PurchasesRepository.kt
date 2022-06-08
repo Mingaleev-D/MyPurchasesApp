@@ -17,7 +17,7 @@ class PurchasesRepository(
         appDatabase.itemEntityDao().delete(itemEntity)
     }
 
-    fun getAllItems(): List<ItemEntity> {
+    suspend fun getAllItems(): List<ItemEntity> {
         return appDatabase.itemEntityDao().getAllItemEntities()
     }
 }
